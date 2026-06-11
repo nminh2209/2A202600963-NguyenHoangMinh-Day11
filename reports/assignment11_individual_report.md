@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-We built a production-style defense pipeline for the VinBank banking chatbot using Google ADK plugins, regex input guardrails, PII/secret output filtering, a multi-criteria LLM-as-Judge, NeMo Guardrails (Colang), rate limiting, audit logging, and HITL routing. Automated tests show **5/5 safe queries pass**, **7/7 attack queries blocked at the input layer**, and **rate limiting blocks requests 11–15** after 10 allowed in a 60-second window.
+We built a production-style defense pipeline for the VinBank banking chatbot using Google ADK plugins with **OpenAI GPT-4o-mini** (via LiteLLM), regex input guardrails, PII/secret output filtering, a multi-criteria LLM-as-Judge, NeMo Guardrails (Colang), rate limiting, audit logging, and HITL routing. Automated tests show **5/5 safe queries pass**, **7/7 attack queries blocked at the input layer**, and **rate limiting blocks requests 11–15** after 10 allowed in a 60-second window.
 
 ---
 
@@ -171,3 +171,4 @@ The bot should **not refuse entirely** (legitimate financial curiosity) but shou
 - OWASP Top 10 for LLM Applications
 - NVIDIA NeMo Guardrails documentation
 - Google ADK Plugin documentation
+- OpenAI API / ADK LiteLLM integration

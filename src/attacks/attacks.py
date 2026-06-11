@@ -146,7 +146,7 @@ async def run_attacks(agent, runner, prompts=None):
 # ============================================================
 # TODO 2: Generate attack test cases with AI
 #
-# Use Gemini to generate 5 new adversarial prompts.
+# Use OpenAI to generate 5 new adversarial prompts.
 # Goal: find more creative attack patterns.
 #
 # IMPORTANT: The red-team prompt should describe:

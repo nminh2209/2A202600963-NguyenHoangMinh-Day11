@@ -112,7 +112,7 @@ If UNSAFE, add a brief reason on the next line.
 # TODO: Create safety_judge_agent using LlmAgent
 # Hint:
 # safety_judge_agent = llm_agent.LlmAgent(
-#     model="gemini-2.0-flash",
+#     model=get_adk_model(),  # OpenAI via LiteLLM
 #     name="safety_judge",
 #     instruction=SAFETY_JUDGE_INSTRUCTION,
 # )

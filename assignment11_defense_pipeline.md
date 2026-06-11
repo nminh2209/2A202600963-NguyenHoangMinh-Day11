@@ -52,7 +52,7 @@ User Input
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
-│  LLM (Gemini)        │ ← Generate response
+│  LLM (GPT-4o-mini)   │ ← Generate response via OpenAI
 └─────────┬───────────┘
           ▼
 ┌─────────────────────┐
